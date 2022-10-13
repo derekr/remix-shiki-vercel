@@ -3,7 +3,8 @@
   "sideEffects": false,
   "scripts": {
     "build": "remix build",
-    "dev": "remix dev"
+    "dev": "remix dev",
+    "cpshiki": "mkdir -p app/shiki && cp -r node_modules/shiki/themes node_modules/shiki/languages app/shiki/"
   },
   "dependencies": {
     "@remix-run/node": "^1.7.2",
